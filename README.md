@@ -1,4 +1,4 @@
-Deep Learning Model for Chest X-ray Pneumonia Detection
+DEEP LEARNING MODEL FOR CHEST X-RAY PNEUMONIA DETECTION
 
 This project focuses on building and evaluating deep learning models to automatically detect Pneumonia from Chest X-ray images.
 It compares multiple architectures — VGG19, ResNet50, DenseNet121, EfficientNetB3, and a custom CNN model — to identify which performs best for binary classification (Pneumonia vs Normal).
