@@ -6,9 +6,13 @@ It compares multiple architectures — VGG19, ResNet50, DenseNet121, EfficientNe
 Models Implemented
 
 VGG19
+
 ResNet50
+
 DenseNet121
+
 EfficientNetB3
+
 Custom CNN
 
 📂 Dataset
@@ -16,18 +20,25 @@ The dataset used is the Chest X-Ray Images (Pneumonia) dataset available on Kagg
 It contains:
 
 train/ – training images
+
 val/ – validation images
+
 test/ – test images
 
 Each folder has two subfolders:
 
 PNEUMONIA/
+
 NORMAL/
 
 ⚙️ Requirements
+
 Make sure you have the following Python libraries installed:
+
 pip install torch torchvision torchaudio
+
 pip install matplotlib seaborn numpy pandas scikit-learn
+
 pip install opencv-python tqdm
 
 📊 Model Evaluation Metrics
@@ -36,17 +47,25 @@ For each model, the following metrics are computed:
 
 Accuracy
 AUC (Area Under ROC Curve)
+
 Precision
+
 Recall
+
 F1 Score
+
 False Positive Rate (FPR)
+
 False Negative Rate (FNR)
 
 📈 Visualizations
 
 Training vs Validation Accuracy
+
 ROC Curves for all models
+
 Confusion Matrices
+
 Model Comparison Charts (Accuracy, AUC, etc.)
 
 Conclusion
